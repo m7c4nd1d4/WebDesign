@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>site raw</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="principal2.css" />
+
+	</head>
+	<body>
+        <h1>
+                <img src="imagens/logo.png" alt="logo da marca"/>
+        </h1>
+        <ol>
+            <li><a href="atividade-de-minisite.html">Home</a></li>
+            <li><a href="cardapio.html">Cárdapio</a></li>
+            <li><a href="sobrenos.html">Sobre Nós</a></li>
+            <li><a href="horariodefuncionamento.html">Horário de Funcionamento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="reserva.html">Reserva</a></li>
+        </ol>
+        <form>
+                <div>
+                        <label for="buscar"></label>
+                        <input type="search" id="buscar" placeholder="Buscar">
+                        <button><img src="imagens/search.png" width="30"/></button>
+                <div>     
+        </form>
+        <h2>Contato</h2>
+        <form>
+                <fieldset>
+                        <legend>Formulário de Contato: </legend>
+                        <div>
+                            <label for="nome">Nome: </label>
+                        </br>
+                            <input type="text" id="nome" />
+                        </div>
+                        <div>
+                            <label for="email">E-mail: </label>
+                        </br>
+                            <input type="email" id="email" />
+                        </div>
+                        <div>
+                            <label for="tel">Telefone: </label>
+                        </br>
+                            <input type="tel" id="tel" />
+                        </div>
+                        <div>
+                                <label for="tipo">Razão: </label>
+                        </br>
+                                <select id="tipo">
+                                        <option value="reclamação">Reclamação</option>
+                                        <option value="elogio">Elogio</option>
+                                        <option value="sugestão">Sugestão</option>
+                                        <option value="outro">Outro...</option>
+                                </select>
+                        </div>
+                        <div>
+                                <label for="mensagem">Mensagem: </label>
+                        </br>
+                                <textarea id="mensagem"></textarea>
+                        </div>
+                        <input type="submit" value="Enviar" />
+                </fieldset>
+        </form>
+
+        <address>Rua Olinto Meira, 379, Cidade Alta</address>
+
+	</body>
+</html>

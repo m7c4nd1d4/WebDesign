@@ -1,0 +1,141 @@
+body{
+    background-color: whitesmoke;
+    background-image: url(imagens/backgroundoption1.jpg);
+    background-attachment: fixed, scroll;
+}
+h1{
+    text-align: center;
+}
+ul{
+    width: 80em;
+    margin-left: auto; 
+    margin-right: auto;
+}
+ul li{
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    padding: 1em;
+  
+}
+figure{
+    text-align: center;
+}
+figure img{
+   text-align: center;
+   border-bottom: 3px solid blue;
+   border-top: 3px solid blue;
+}
+h2{
+    font-family: garamond, georgia;
+    text-align: center;
+    border-bottom: 5px solid green;
+    font-size: 3em;
+}
+address{
+    text-align: center;
+    background-color: white;
+    padding: 2em;
+}
+p{
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    width: 20em;
+    padding: 2em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    background-color: wheat;
+}
+ol{
+    padding: 0em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+ol li{
+    padding: 1 em;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+ol li a:visited{
+    border: 1px solid blue;
+    font-style: italic;
+}
+ol li a:link{
+    border: 1px solid blue;
+    font-size: 1.3em;
+    padding: 0.5em 1em;
+}
+form{
+    text-align: center;
+}
+input[type="search"]{
+    background: transparent;
+    border-top: none;
+    border-bottom: 0.16em solid black;
+    border-left: none;
+    border-right: none;
+    width: 30em;
+    padding: 1em;
+    font-size: 1em;
+    height: 3em;
+    margin-bottom: 3em;
+}
+button{
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+}
+form fieldset{
+    text-align: left;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid whitesmoke;
+    padding: 1em;
+}
+
+form fieldset legend{
+    font-style: italic;
+    font-size: 1.5em;
+}
+form fieldset label{
+    font-size: 1.2em;
+}
+form fieldset input{
+    background: transparent;
+    border: 0.12em solid black;
+    height: 3em;
+    width: 35em;
+    margin-bottom: 2em;
+    margin-top: 0.9em;
+}
+textarea{
+    background: transparent;
+    border: 0.16em solid black;
+    height: 9em;
+    width: 35em;
+    margin-bottom: 2em;
+    margin-top: 0.9em;
+}
+select{
+    background: transparent;
+    border: 0.16em solid black;
+    height: 3em;
+    width: 35em;
+    margin-bottom: 2em;
+    margin-top: 0.9em;
+}
+input[type="submit"]{
+    background-color: whitesmoke;
+    border: 0.16em solid black;
+    color: black;
+    width: 10em;
+}
